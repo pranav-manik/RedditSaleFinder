@@ -1,2 +1,4 @@
 # RedditSaleFinder
-Script that fInds sales on Reddit for products, brands that you want
+Script that finds sales on Reddit for products & brands that you want based on subreddits you hand it
+
+
