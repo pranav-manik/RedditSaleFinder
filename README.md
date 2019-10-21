@@ -1,9 +1,16 @@
 # RedditSaleFinder
 Script that finds sales on Reddit for products & brands that you want based on subreddits you hand it and sends that catalog in csv format to your email
 
-##Usage
+## Usage
 
 must use python 3.
+
+```
+python3 sale_script.py
+```
+
+
+## Configuration
 
 
 Configure your [Reddit Api](https://www.reddit.com/prefs/apps) by creating an app of a script type and copy the pai information down into the following lines in *sale_script.py*
@@ -29,7 +36,9 @@ email_info = {
 				"files" : ["sales.csv"]
 			}
 ```
-lastly modify *sales_dict* with the products or brands that you would like to search for based on a specific subreddits
+lastly modify *sales_dict* with the products or brands that you would like to search for based on a specific subreddits 
+
+some example are left in
 ```
 sale_dict = {
 				"SUBTHREAD_NAME" : \
@@ -41,11 +50,6 @@ sale_dict = {
 						"PRODUCT_OR_BRAND_NAME2", \
 						"PRODUCT_OR_BRAND_NAME3"],
 			}
-```
-Run
-
-```
-python3 sale_script.py
 ```
 
 ## Installation
